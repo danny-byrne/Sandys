@@ -4,6 +4,7 @@ import Backdrop from '../Backdrop/backdrop';
 
 
 class Modal extends Component {
+  //shouldComponentUpdate used to determine whether components arent' updated necessarily.
   shouldComponentUpdate (nextProps, nextState) {
     return nextProps.show !== this.props.show;
   }

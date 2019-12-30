@@ -86,9 +86,6 @@ class BurgerBuilder extends Component {
     alert('Proceeding to checkout');
   }
 
-  
-  
-
   render() {
     const disabledInfo = {
       ...this.state.ingredients
